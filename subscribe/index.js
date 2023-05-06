@@ -17,5 +17,5 @@ const newPromisse = new Promise((resolve) => {
 });
 
 const mercado = new Promise((resolve) => {
-    console.log('mercado', resolve(1));
+    console.log('mercados 123', resolve(1));
 });
