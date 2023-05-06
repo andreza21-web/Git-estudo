@@ -12,7 +12,7 @@ const promise = new Promise((resolve) => {
 const newPromisse = new Promise((resolve) => {
     console.log('promisse 2');
     const teste = 5 + 3;
-    console.log('teste1 ',teste);
+    console.log('teste novo ',teste);
     setTimeout(() => resolve(1), 2000);
 });
 
