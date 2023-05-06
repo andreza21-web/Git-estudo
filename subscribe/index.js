@@ -11,8 +11,11 @@ const promise = new Promise((resolve) => {
 
 const newPromisse = new Promise((resolve) => {
     console.log('promisse 2');
-    const newTeste = 6 + 5;
-    console.log('new teste', newTeste);
+    const teste = 5 + 3;
+    console.log('teste1 ',teste);
     setTimeout(() => resolve(1), 2000);
 });
 
+const mercado = new Promise((resolve) => {
+    console.log('mercado', resolve(1));
+});
